@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>The US Foreign Policies - Presentation</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/black.min.css" id="theme">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/highlight/monokai.min.css">
+
+    <style>
+        /* 1. GLOBAL TEXT SIZE REDUCTION */
+        .reveal {
+            font-size: 26px;
+        }
+        .reveal h1 { font-size: 2em; margin-bottom: 0.5em; }
+        .reveal h2 { font-size: 1.4em; margin-bottom: 0.5em; }
+        .reveal h3 { font-size: 1.1em; margin-bottom: 0.3em; }
+        .reveal ul { margin: 0.5em 0; }
+        .reveal li { margin: 0.3em 0; }
+        .reveal p { margin: 0.5em 0; }
+
+        /* 2. STRICT TWO-COLUMN LAYOUT */
+        .two-col {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 30px;
+            max-height: 70vh;
+            width: 100%;
+        }
+        .col-text {
+            flex: 0 1 50%;
+            text-align: left;
+            min-width: 0;
+        }
+        .col-img {
+            flex: 0 1 45%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-width: 0;
+            max-height: 70vh;
+        }
+
+        /* 3. IMAGE CONSTRAINTS */
+        .reveal img {
+            max-width: 100%;
+            max-height: 50vh;
+            width: auto;
+            height: auto;
+            object-fit: contain;
+            margin: 0;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+            border-radius: 5px;
+            display: block;
+        }
+
+        .reveal section > img {
+            max-height: 35vh;
+        }
+
+        /* 4. MAP & LEGEND FIXES */
+        .map-wrapper {
+            position: relative;
+            width: 100%;
+            max-height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .map-wrapper img {
+            max-height: 60vh;
+        }
+        
+        .legend-box {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            background: rgba(0, 0, 0, 0.95);
+            padding: 12px;
+            border: 2px solid #e74c3c;
+            font-size: 0.5em;
+            text-align: left;
+            z-index: 10;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(231, 76, 60, 0.5);
+        }
+
+        /* 5. VIDEO CONTAINER FIX */
+        .video-container {
+            max-height: 50vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .video-container video {
+            max-height: 45vh;
+            width: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 30px rgba(231, 76, 60, 0.6);
+        }
+
+        /* 6. PREVENT OVERFLOW */
+        .reveal .slides section {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        /* 7. CENTER CONTENT VERTICALLY */
+        .reveal .slides > section,
+        .reveal .slides > section > section {
+            display: flex !important;
+            flex-direction: column !important;
+            justify-content: center !important;
+            align-items: center !important;
+            text-align: center;
+            padding: 20px !important;
+        }
+
+        .two-col .col-text {
+            text-align: left;
+        }
+        
+        .reveal section > * {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* 8. ENHANCED VISUAL EFFECTS */
+        .highlight-red { color: #e74c3c; }
+        .highlight-blue { color: #3498db; }
+        .highlight-green { color: #2ecc71; }
+        .highlight-yellow { color: #f1c40f; }
+        .highlight-orange { color: #e67e22; }
+
+        /* Glowing text effect for emphasis */
+        .glow {
+            text-shadow: 0 0 10px rgba(231, 76, 60, 0.8);
+        }
+
+        /* Better bullets */
+        .reveal ul li {
+            margin: 0.4em 0;
+        }
+
+        /* Question styles */
+        .question-option {
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.05);
+            transition: all 0.3s ease;
+        }
+
+        .question-option:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateX(10px);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="reveal">
+        <div class="slides">
+            
+            <!-- Title Slide with fade-in animation -->
+            <section data-auto-animate>
+                <h1 style="color: #e74c3c;" class="glow">The US Foreign Policies</h1>
+                <h3>Hidden Costs & Covert Intervention</h3>
+                <p><small>Presented by: ARAB Massyl</small></p>
+            </section>
+
+            <section>
+                <!-- CIA Section with fragments -->
+                <section>
+                    <h2>A Policy in the Shadows</h2>
+                    <img src="img/cia_logo.jpg" alt="CIA Logo" style="height: 150px;" class="fragment fade-in">
+                    <ul>
+                        <li class="fragment"><b>80+ Attempts</b> (1946–1991).</li>
+                        <li class="fragment">Executed by the <b>CIA</b>.</li>
+                        <li class="fragment">Goal: <span class="highlight-blue">Plausible Deniability</span>.</li>
+                    </ul>
+                </section>
+
+                <section data-auto-animate>
+                    <h2>The Tool: The Proxy</h2>
+                    <div class="two-col">
+                        <div class="col-text">
+                            <p class="fragment">Reliance on Local Groups / Allied Agencies.</p>
+                            <ul>
+                                <li class="fragment">Examples: <b>Contras</b> (Nicaragua), <b>ISI</b> (Pakistan).</li>
+                                <li class="fragment"><span class="highlight-red">The Risk: Unforeseen consequences.</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-img">
+                            <img src="img/proxy_soldiers_concept.jpg" alt="Proxy Forces" class="fragment fade-left">
+                        </div>
+                    </div>
+                </section>
+
+                <section data-background-color="#2c3e50" data-transition="zoom">
+                    <h3 style="margin-bottom: 10px;">Global Reach of Covert Actions</h3>
+                    
+                    <div class="map-wrapper">
+                        <img src="img/map_cold_war_interventions.jpg" alt="Map" class="fragment fade-in">
+                        
+                        <div class="legend-box fragment fade-in">
+                            <strong style="color:white; text-decoration: underline;">LEGEND</strong><br>
+                            <span style="color: #0000FF;">■</span> USA<br>
+                            <span style="color: #27ae60;">■</span> Election Interference<br>
+                            <span style="color: #e67e22;">■</span> Successful Coup<br>
+                            <span style="color: #9b59b6;">■</span> Failed Coup<br>
+                            <span style="color: #6d4c3d;">■</span> Invasion
+                        </div>
+                    </div>
+                    
+                    <p style="font-size: 0.7em; margin-top: 5px;" class="fragment">Interference caused lasting <b><span class="highlight-red glow">Harm and Suffering</span></b> abroad.</p>
+                </section>
+            </section>
+
+            <!-- Part 1: The Rationale -->
+            <section>
+                <section data-background-color="#006699" data-transition="convex">
+                    <h1 class="fragment fade-in">Part 1: The Rationale</h1>
+                    <h3 class="fragment fade-in">Why Intervene?</h3>
+                </section>
+
+                <section data-auto-animate>
+                    <h2>1. Ideology (Containment)</h2>
+                    <div class="two-col">
+                        <div class="col-text">
+                            <p class="fragment">Stop Soviet-aligned Communism.</p>
+                            <p class="fragment" style="font-style: italic;"><span class="highlight-yellow">"The Domino Theory"</span></p>
+                            <small class="fragment">If one country falls, the region follows.</small>
+                        </div>
+                        <div class="col-img">
+                            <img src="img/domino_theory_diagram.jpg" alt="Domino Theory" class="fragment fade-left">
+                        </div>
+                    </div>
+                </section>
+
+                <section data-auto-animate>
+                    <h2>2. Economics (Resources)</h2>
+                    <div class="two-col">
+                        <div class="col-text">
+                            <p class="fragment">Protect US corporate profits against <b>Nationalization</b>.</p>
+                            <p class="fragment">Key Resources:</p>
+                            <ul>
+                                <li class="fragment"><span class="highlight-green">Oil</span> (Middle East)</li>
+                                <li class="fragment"><span class="highlight-orange">Copper</span> (Chile)</li>
+                            </ul>
+                        </div>
+                        <div class="col-img">
+                            <img src="img/oil_pipeline_map.jpg" alt="Oil Pipeline Map" class="fragment fade-left">
+                        </div>
+                    </div>
+                </section>
+                
+                <section>
+                     <h2>Moral Contradiction</h2>
+                     <div class="two-col">
+                         <div class="col-text">
+                             <p class="fragment">Fighting Authoritarianism...</p>
+                             <h3 class="fragment"><span class="highlight-red glow">...by installing US-backed military rule?</span></h3>
+                         </div>
+                         <div class="col-img">
+                             <img src="img/pinochet_military_dictator.jpg" alt="Augusto Pinochet" class="fragment fade-left">
+                         </div>
+                     </div>
+                </section>
+            </section>
+
+            <!-- Part 2: The Methods -->
+            <section>
+                <section data-background-color="#444" data-transition="convex">
+                    <h1 class="fragment fade-in">Part 2: The Methods</h1>
+                </section>
+
+                <section data-auto-animate>
+                    <h2>1. Covert Coups (Iran 1953)</h2>
+                    <div class="two-col">
+                        <div class="col-text">
+                            <h3 class="fragment"><span class="highlight-orange">Operation Ajax</span></h3>
+                            <ul>
+                                <li class="fragment"><b>Cost:</b> ~$1 Million.</li>
+                                <li class="fragment"><b>Action:</b> Bribed officials.</li>
+                                <li class="fragment"><b>Result:</b> Installed the Shah.</li>
+                            </ul>
+                        </div>
+                        <div class="col-img">
+                            <img src="img/1953_iran_coup_newspaper.jpg" alt="Iran Coup Newspaper" class="fragment fade-left">
+                        </div>
+                    </div>
+                </section>
+
+                <section data-auto-animate>
+                    <h2>2. Funding Chaos (Chile)</h2>
+                    <div class="two-col">
+                        <div class="col-text">
+                            <h3 class="fragment"><span class="highlight-orange">"Make Economy Scream"</span></h3>
+                            <ul>
+                                <li class="fragment"><b>Economic Warfare:</b> Blocking loans.</li>
+                                <li class="fragment"><b>Active Financing:</b> Funded strikes & propaganda.</li>
+                                <li class="fragment"><b>Result:</b> 1973 Military Coup.</li>
+                            </ul>
+                        </div>
+                        <div class="col-img">
+                            <img src="img/allende_chile_protests.jpg" alt="Chile Protests" class="fragment fade-left">
+                        </div>
+                    </div>
+                </section>
+
+                <section data-auto-animate>
+                    <h2>3. Proxy Forces</h2>
+                    <div class="two-col">
+                        <div class="col-text">
+                            <h3 class="fragment"><span class="highlight-orange">Afghanistan & Nicaragua</span></h3>
+                            <ul>
+                                <li class="fragment">Armed <b>Contras</b> & <b>Mujahideen</b>.</li>
+                                <li class="fragment">Maintained deniability.</li>
+                                <li class="fragment"><span class="highlight-red">Result: War came home.</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-img">
+                            <img src="img/contras_mujahideen.jpg" alt="Contras" class="fragment fade-left">
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+            <!-- Part 3: The Ultimate Harm -->
+            <section>
+                <section data-background-color="#800000" data-transition="zoom">
+                    <h1 class="fragment fade-in glow">Part 3: The Ultimate Harm</h1>
+                </section>
+
+                <section data-auto-animate>
+                    <h2>Harm Abroad: Latin America</h2>
+                    <div class="two-col">
+                        <div class="col-text" style="font-size: 0.8em;">
+                            <p class="fragment"><b>🇨🇱 Chile:</b> ~3,200 dead, 38,000 tortured.</p>
+                            <p class="fragment"><b>🇳🇮 Nicaragua:</b> 30,000 - 50,000 dead.</p>
+                            <p class="fragment"><b>🇬🇹 Guatemala:</b> Over 200,000 dead.</p>
+                        </div>
+                        <div class="col-img">
+                             <img src="img/pinochet_victim_count.jpg" alt="Pinochet Victims" class="fragment fade-left">
+                        </div>
+                    </div>
+                </section>
+
+                <section data-auto-animate>
+                    <h2>Harm to Americans: Crack Epidemic</h2>
+                    <div class="two-col">
+                        <div class="col-img">
+                            <img src="img/crack_cocaine_map.jpg" alt="Crack Epidemic Media" class="fragment fade-right">
+                        </div>
+                        <div class="col-text">
+                            <h3 class="fragment"><span class="highlight-orange">Domestic Blowback</span></h3>
+                            <ul>
+                                <li class="fragment">Contras trafficked cocaine.</li>
+                                <li class="fragment"><b>Incarceration:</b> 50k → 400k.</li>
+                                <li class="fragment"><b>Disparity:</b> 100-to-1 sentencing.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section data-auto-animate>
+                    <h2>Harm to Americans: 9/11</h2>
+                    <div class="two-col">
+                        <div class="col-text">
+                            <h3 style="color: #ecf0f1;">Cost of Disengagement</h3>
+                            <ul>
+                                <li class="fragment"><b>US Aid:</b> Billions to Mujahideen.</li>
+                                <li class="fragment"><b>Vacuum:</b> Rise of Taliban & Al-Qaeda.</li>
+                                <li class="fragment"><b><span class="highlight-red glow">Blowback:</span></b> Death of 2,977 civilians.</li>
+                            </ul>
+                        </div>
+                        <div class="col-img">
+                            <img src="img/911_towers_afghanistan.jpg" alt="9/11 Towers" class="fragment fade-left">
+                        </div>
+                    </div>
+                </section>
+                
+                <section data-transition="zoom">
+                    <h2>Final Proof</h2>
+                    <p class="fragment">"Despite years of official denial, the ultimate proof comes from the highest levels."</p>
+                    
+                    <div class="video-container fragment fade-in" style="border: 2px solid white; padding: 10px; margin-top: 10px;">
+                        <video id="woolseyVideo" controls width="80%" preload="auto" style="cursor: pointer;">
+                            <source src="img/Democracy_Now_CIA_EX_Director.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <p style="font-size: 0.8em; margin-top: 10px; color: #aaa;">Click video to play</p>
+                    </div>
+                </section>
+            </section>
+
+            <!-- Conclusion -->
+            <section>
+                <section data-auto-animate>
+                    <h2 class="highlight-red">Conclusion</h2>
+                    <ul>
+                        <li class="fragment"><b>The Failure:</b> Short-term gains led to long-term disaster.</li>
+                        <li class="fragment"><b>Pattern Continues:</b> Iraq War (2003) → <b><span class="highlight-red">200k+ dead</span></b> & rise of ISIS.</li>
+                        <li class="fragment">The system failed its moral and practical duty.</li>
+                    </ul>
+                </section>
+
+                <section data-background-color="#2c3e50">
+                    <h2>Discussion</h2>
+                    <p class="r-fit-text fragment">"Only for a Very Good Cause."</p>
+                    <p class="fragment"><i>Did the means of meddling justify the ends of containment?</i></p>
+                </section>
+            </section>
+
+            <!-- Q&A Section -->
+            <section>
+                <section data-background-color="#1a472a" data-transition="zoom">
+                    <h1 class="fragment fade-in">Q&A</h1>
+                    <h3 class="fragment fade-in">Test Your Understanding</h3>
+                </section>
+
+                <section>
+                    <h3>Question 1: The Strategy Question</h3>
+                    <p>What is the primary strategic advantage of using "Proxy Forces"?</p>
+                    <ul style="list-style: none;">
+                        <li class="fragment fade-out question-option">A. Lower financial costs</li>
+                        <li class="question-option"><b>B. Maintains "Plausible Deniability"</b></li>
+                        <li class="fragment fade-out question-option">C. Better military effectiveness</li>
+                        <li class="fragment fade-out question-option">D. Faster results</li>
+                    </ul>
+                    <p class="fragment" style="font-size: 1.1em; margin-top: 20px; color: #2ecc71;"><b>✓ Correct Answer: B</b></p>
+                    <p class="fragment" style="font-size: 0.9em; margin-top: 10px; color: #3498db;"><i>Allows the US to deny involvement if things go wrong</i></p>
+                </section>
+
+                <section>
+                    <h3>Question 2: The Motivation Question</h3>
+                    <p>Besides fighting Communism, what was the other major driver for intervention?</p>
+                    <ul style="list-style: none;">
+                        <li class="fragment fade-out question-option">A. Spreading democracy</li>
+                        <li class="fragment fade-out question-option">B. Humanitarian concerns</li>
+                        <li class="question-option"><b>C. Protecting Economic Interests</b></li>
+                        <li class="fragment fade-out question-option">D. Building military alliances</li>
+                    </ul>
+                    <p class="fragment" style="font-size: 1.1em; margin-top: 20px; color: #2ecc71;"><b>✓ Correct Answer: C</b></p>
+                    <p class="fragment" style="font-size: 0.9em; margin-top: 10px; color: #3498db;"><i>Protecting US corporate profits in oil and copper</i></p>
+                </section>
+
+                <section>
+                    <h3>Question 3: The Terminology Question</h3>
+                    <p>What does the term "Blowback" refer to in this context?</p>
+                    <ul style="list-style: none;">
+                        <li class="fragment fade-out question-option">A. Media criticism of foreign policy</li>
+                        <li class="fragment fade-out question-option">B. Congressional investigations</li>
+                        <li class="question-option"><b>C. Unintended negative consequences returning to harm the US</b></li>
+                        <li class="fragment fade-out question-option">D. Public protests against war</li>
+                    </ul>
+                    <p class="fragment" style="font-size: 1.1em; margin-top: 20px; color: #2ecc71;"><b>✓ Correct Answer: C</b></p>
+                    <p class="fragment" style="font-size: 0.9em; margin-top: 10px; color: #3498db;"><i>Examples: 9/11, crack epidemic</i></p>
+                </section>
+                
+                <section>
+                    <h3>Question 4: The Ethical Question</h3>
+                    <p>What was the central "Moral Contradiction" discussed?</p>
+                    <ul style="list-style: none;">
+                        <li class="fragment fade-out question-option">A. Promoting peace while building weapons</li>
+                        <li class="question-option"><b>B. Destroying democracies to "save" them</b></li>
+                        <li class="fragment fade-out question-option">C. Fighting terror while creating instability</li>
+                        <li class="fragment fade-out question-option">D. Claiming freedom while supporting occupation</li>
+                    </ul>
+                    <p class="fragment" style="font-size: 1.1em; margin-top: 20px; color: #2ecc71;"><b>✓ Correct Answer: B</b></p>
+                    <p class="fragment" style="font-size: 0.9em; margin-top: 10px; color: #3498db;"><i>Replacing elected leaders with dictators like Pinochet</i></p>
+                </section>
+                
+                <section>
+                    <h3>Question 5: The Historical Pattern Question</h3>
+                    <p>What pattern connects the 1953 Iran Coup to the 2003 Iraq War?</p>
+                    <ul style="list-style: none;">
+                        <li class="fragment fade-out question-option">A. Both involved oil resources</li>
+                        <li class="question-option"><b>B. Short-term success leading to long-term instability</b></li>
+                        <li class="fragment fade-out question-option">C. Both used proxy forces</li>
+                        <li class="fragment fade-out question-option">D. Both were covert operations</li>
+                    </ul>
+                    <p class="fragment" style="font-size: 1.1em; margin-top: 20px; color: #2ecc71;"><b>✓ Correct Answer: B</b></p>
+                    <p class="fragment" style="font-size: 0.9em; margin-top: 10px; color: #3498db;"><i>Initial "victories" that created decades of problems</i></p>
+                </section>
+            </section>
+            
+            <!-- Sources -->
+            <section>
+                <section data-transition="slide">
+                    <h2>Primary Sources</h2>
+                    <div style="font-size: 0.65em; text-align: left;">
+                        <ul>
+                            <li class="fragment"><b>The Church Committee (1975):</b> <i>Covert Action in Chile</i>.</li>
+                            <li class="fragment"><b>The Kerry Committee (1989):</b> <i>Drugs, Law Enforcement...</i>.</li>
+                            <li class="fragment"><b>The Rettig & Valech Reports (1991/2004):</b> Chilean Truth Commissions.</li>
+                            <li class="fragment"><b>Commission for Historical Clarification (1999):</b> <i>Guatemala: Memory of Silence</i>.</li>
+                            <li class="fragment"><b>Brown University "Costs of War":</b> <i>Iraq War Statistics</i>.</li>
+                            <li class="fragment"><b>Bureau of Justice Statistics:</b> <i>Trends in U.S. Corrections</i>.</li>
+                        </ul>
+                    </div>
+                </section>
+                
+                <section data-transition="slide">
+                    <h2>Secondary Sources</h2>
+                    <div style="font-size: 0.65em; text-align: left;">
+                        <ul>
+                            <li class="fragment"><b>Weiner, Tim (2007):</b> <i>Legacy of Ashes</i>.</li>
+                            <li class="fragment"><b>Coll, Steve (2004):</b> <i>Ghost Wars</i>.</li>
+                            <li class="fragment"><b>Levin, Dov (2016):</b> "Partisan electoral interventions...".</li>
+                            <li class="fragment"><b>Video Source:</b> James Woolsey, Interview on <i>The Ingraham Angle</i>, 2018.</li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/notes/notes.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/markdown/markdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/highlight/highlight.min.js"></script>
+    
+    <script>
+        Reveal.initialize({
+            hash: true,
+            controls: true,
+            progress: true,
+            center: true,
+            transition: 'slide',
+            transitionSpeed: 'default',
+            backgroundTransition: 'fade',
+            plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+        });
+    </script>
+</body>
+</html>
